@@ -1,0 +1,28 @@
+{
+  "name": "nqueenmvc",
+  "version": "0.1.0",
+  "description": "N-Queens puzzle",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint reactjs/*.js",
+    "build-react": "browserify -t [ babelify ] react/main.js -o react/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/nqueenmvc.git"
+  },
+  "author": "Aliaksei Chapyzhenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/nqueenmvc/issues"
+  },
+  "homepage": "https://github.com/drom/nqueenmvc#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "eslint": "^2.11.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
