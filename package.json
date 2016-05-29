@@ -4,7 +4,7 @@
   "description": "N-Queens puzzle",
   "main": "index.js",
   "scripts": {
-    "test": "eslint reactjs/*.js",
+    "test": "eslint react/main.js",
     "build-react": "browserify -t [ babelify ] react/main.js -o react/bundle.js"
   },
   "repository": {
